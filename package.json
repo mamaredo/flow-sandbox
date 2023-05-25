@@ -1,0 +1,16 @@
+{
+  "name": "flow-sandbox",
+  "version": "1.0.0",
+  "scripts": {
+    "flow": "flow",
+    "stop": "flow stop",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-flow": "^7.21.4",
+    "flow-bin": "^0.206.0"
+  }
+}
